@@ -1,0 +1,1574 @@
+fileFormatVersion: 2
+guid: 66c51f9b477dc1e409c9b3dbef694f63
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1131
+        width: 93
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba516e0a2531beb4f965e61829d8cd61
+      internalID: -1309884132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1137
+        width: 90
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0f225e77e60884cb445732ad6a34b5
+      internalID: -236981331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1133
+        width: 101
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd11a4a88175f449bf5057d70c448f4
+      internalID: 828090030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1134
+        width: 96
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ecfaacf0aea224f97a2921b26eda9b
+      internalID: -577300433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1127
+        width: 94
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2a5ac4383872a46b5396f1d0fa3c18
+      internalID: -228159160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_5
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1137
+        width: 91
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2b13fb2d62f4746acff1e401c70f01
+      internalID: -683566676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_6
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1133
+        width: 103
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae50dfc3a0291342aedd1d51be16c8a
+      internalID: 452699852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_7
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 1133
+        width: 105
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45bad382ade4c94c9532b7dbc7e42ee
+      internalID: 934498684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 977
+        width: 104
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c485206a5c13944eb7a329a0a18894f
+      internalID: 1421349596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_9
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 964
+        width: 113
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a84e7fcc3313434986c7febd8e56f34
+      internalID: 884390166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_10
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 979
+        width: 102
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce7a9b3be252ec4d87adfb16ba30916
+      internalID: 1513169162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 980
+        width: 96
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6572f4b9c76854b8ba79296cd10814
+      internalID: -1709673774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_12
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 982
+        width: 97
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa33d3bc40dd3c42871149f3790ceeb
+      internalID: 430834000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_13
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 982
+        width: 106
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b2e80509a5ef248b1913aac4fc7bb8
+      internalID: -392150168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_14
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 982
+        width: 83
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0e833eb10d578498bac5db1523c126
+      internalID: -1319013277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_15
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 979
+        width: 87
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3896037a9dbea4ba94e558da2c9f24
+      internalID: -556402677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_16
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 828
+        width: 104
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f865bef0d3f684c892646f465c66b9
+      internalID: 1919021450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_17
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 837
+        width: 100
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9292396df2d459b4b90148ad90045039
+      internalID: 1203149404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_18
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 819
+        width: 94
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0b745a663caff41be622731328ed28
+      internalID: -1046209195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_19
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 826
+        width: 90
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253f49e98535ec243a3efdfcbcaefebd
+      internalID: -682826210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_20
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 814
+        width: 112
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980656d06093eea4db69d19115b314fd
+      internalID: -705402701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_21
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 812
+        width: 104
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9feef1106ef02244b907414b39d34ae
+      internalID: -265963799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_22
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 813
+        width: 98
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd4ec93930a97f4cbe2cf013e75b353
+      internalID: -1135009770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_23
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 802
+        width: 112
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6d152544566bc4fb777c998c061f84
+      internalID: 1038061073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_24
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 668
+        width: 106
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669e8487435c96e4da31a370e719c96a
+      internalID: 260500749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_25
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 665
+        width: 88
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24972b91bc7fbb46a024df3163a083b
+      internalID: 1556157121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_26
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 665
+        width: 116
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd2bdd86cb8f234a912db33cb7acbea
+      internalID: 1996776272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_27
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 662
+        width: 116
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd82edeb4d63fc248b8cabd4abfd85e4
+      internalID: 24113073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_28
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 665
+        width: 99
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5271e1c9fb479b94585bece9f6d688fb
+      internalID: 102517256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_29
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 662
+        width: 86
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf114f08bf31d743a1e3a1bdd5e0298
+      internalID: -585775916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_30
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 664
+        width: 117
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3060e1fd196729c42b251ade865c9289
+      internalID: 120342260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_31
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 660
+        width: 124
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af07379122861d418865479028e96dc
+      internalID: 208116205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_32
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 480
+        width: 104
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e626bffc3f9c4b642afe358c2174710a
+      internalID: 837714357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_33
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 496
+        width: 89
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1112dc1b051cb024aa1825893df64bf3
+      internalID: 1679179252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_34
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 497
+        width: 108
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad51054a9b8121a4e86f4df7c08646d2
+      internalID: 143194017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_35
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 502
+        width: 92
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff350d066e40fc4ca541c6b7add3d6e
+      internalID: 1723440816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_36
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 494
+        width: 87
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3998e13842f82864ea991eab90e839ea
+      internalID: 39719500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_37
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 500
+        width: 90
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9644974fd3c288846bf6c3bd2ecb185e
+      internalID: 1440169348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_38
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 487
+        width: 98
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f80e3ef2b41154588b47052b677e57
+      internalID: 1697848779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_39
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 495
+        width: 89
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec49d5abfc542a4f8e40935f4b7aec4
+      internalID: 1921745810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_40
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 337
+        width: 109
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f59b2a204c036247a91b505adf3ab9e
+      internalID: -269509263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_41
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 351
+        width: 109
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6726adb7da876e149bdbf5730b188dfe
+      internalID: -2007947514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_42
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 335
+        width: 109
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c6d2c118b9ad342bfcc0110b5810a7
+      internalID: 192643898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_43
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 330
+        width: 107
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59734668cf07b194fb3f7a948a978344
+      internalID: 389626902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_44
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 344
+        width: 99
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7f3eb923f37c04dad48e7f58a1eb44
+      internalID: -1476943109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_45
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 331
+        width: 105
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a934aa877b92a364c8d143458e3a10f6
+      internalID: -1759701727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_46
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 344
+        width: 91
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcfe5553d1b2334487b9b653920c329
+      internalID: -905374476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_47
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 340
+        width: 101
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa474918bae99f498e05bbee086ac4e
+      internalID: -709761159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_48
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 178
+        width: 106
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f57c272df5f444e9faa9587beea014
+      internalID: -906549167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_49
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 172
+        width: 145
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa5b110410b80c4a86e132e1157f61c
+      internalID: -1178533152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_50
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 173
+        width: 116
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6d5b57b571cda419b58fa174e1fc02
+      internalID: 1375895042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_51
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 192
+        width: 149
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bac287867e33bf4da5ab94dd7cb6094
+      internalID: 688854010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_52
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 205
+        width: 83
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d945a8c5eaa5a4eb8dbb527dab2a6b
+      internalID: -721323353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_53
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 195
+        width: 107
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2018bfb11bc0024999abac14b781023
+      internalID: 519678169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_54
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 183
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3122c3cfaa1dad4f839fbdd960f3689
+      internalID: 2017071067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_55
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 189
+        width: 86
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8820fc038cb5d43b34636210b82582
+      internalID: -1174700958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_56
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 24
+        width: 102
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62591019e90037240b62331998e583a8
+      internalID: -660190071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_57
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 24
+        width: 93
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd7a7720531c30438fa57df348913b8
+      internalID: 322376388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_58
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 26
+        width: 114
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e6d50790553784d9d23ad8e06e9980
+      internalID: 1893133896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_59
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 25
+        width: 110
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2962c218dc677a94b996c4e8102d9f17
+      internalID: 949259233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_60
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 23
+        width: 105
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425e8b675a0958441a0c40ac36adfaeb
+      internalID: 1093879439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_61
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 26
+        width: 99
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14adb631eb223b4f9ef60cc5b7629d6
+      internalID: 945191396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_62
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 28
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826746d73b89658408ce4ad7271f19bf
+      internalID: -729024383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TVs-Photoroom.png-Photoroom_63
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 24
+        width: 115
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56660f4007c2874ea9782f4b1ce494f
+      internalID: 434504404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TVs-Photoroom.png-Photoroom_0: -1309884132
+      TVs-Photoroom.png-Photoroom_1: -236981331
+      TVs-Photoroom.png-Photoroom_10: 1513169162
+      TVs-Photoroom.png-Photoroom_11: -1709673774
+      TVs-Photoroom.png-Photoroom_12: 430834000
+      TVs-Photoroom.png-Photoroom_13: -392150168
+      TVs-Photoroom.png-Photoroom_14: -1319013277
+      TVs-Photoroom.png-Photoroom_15: -556402677
+      TVs-Photoroom.png-Photoroom_16: 1919021450
+      TVs-Photoroom.png-Photoroom_17: 1203149404
+      TVs-Photoroom.png-Photoroom_18: -1046209195
+      TVs-Photoroom.png-Photoroom_19: -682826210
+      TVs-Photoroom.png-Photoroom_2: 828090030
+      TVs-Photoroom.png-Photoroom_20: -705402701
+      TVs-Photoroom.png-Photoroom_21: -265963799
+      TVs-Photoroom.png-Photoroom_22: -1135009770
+      TVs-Photoroom.png-Photoroom_23: 1038061073
+      TVs-Photoroom.png-Photoroom_24: 260500749
+      TVs-Photoroom.png-Photoroom_25: 1556157121
+      TVs-Photoroom.png-Photoroom_26: 1996776272
+      TVs-Photoroom.png-Photoroom_27: 24113073
+      TVs-Photoroom.png-Photoroom_28: 102517256
+      TVs-Photoroom.png-Photoroom_29: -585775916
+      TVs-Photoroom.png-Photoroom_3: -577300433
+      TVs-Photoroom.png-Photoroom_30: 120342260
+      TVs-Photoroom.png-Photoroom_31: 208116205
+      TVs-Photoroom.png-Photoroom_32: 837714357
+      TVs-Photoroom.png-Photoroom_33: 1679179252
+      TVs-Photoroom.png-Photoroom_34: 143194017
+      TVs-Photoroom.png-Photoroom_35: 1723440816
+      TVs-Photoroom.png-Photoroom_36: 39719500
+      TVs-Photoroom.png-Photoroom_37: 1440169348
+      TVs-Photoroom.png-Photoroom_38: 1697848779
+      TVs-Photoroom.png-Photoroom_39: 1921745810
+      TVs-Photoroom.png-Photoroom_4: -228159160
+      TVs-Photoroom.png-Photoroom_40: -269509263
+      TVs-Photoroom.png-Photoroom_41: -2007947514
+      TVs-Photoroom.png-Photoroom_42: 192643898
+      TVs-Photoroom.png-Photoroom_43: 389626902
+      TVs-Photoroom.png-Photoroom_44: -1476943109
+      TVs-Photoroom.png-Photoroom_45: -1759701727
+      TVs-Photoroom.png-Photoroom_46: -905374476
+      TVs-Photoroom.png-Photoroom_47: -709761159
+      TVs-Photoroom.png-Photoroom_48: -906549167
+      TVs-Photoroom.png-Photoroom_49: -1178533152
+      TVs-Photoroom.png-Photoroom_5: -683566676
+      TVs-Photoroom.png-Photoroom_50: 1375895042
+      TVs-Photoroom.png-Photoroom_51: 688854010
+      TVs-Photoroom.png-Photoroom_52: -721323353
+      TVs-Photoroom.png-Photoroom_53: 519678169
+      TVs-Photoroom.png-Photoroom_54: 2017071067
+      TVs-Photoroom.png-Photoroom_55: -1174700958
+      TVs-Photoroom.png-Photoroom_56: -660190071
+      TVs-Photoroom.png-Photoroom_57: 322376388
+      TVs-Photoroom.png-Photoroom_58: 1893133896
+      TVs-Photoroom.png-Photoroom_59: 949259233
+      TVs-Photoroom.png-Photoroom_6: 452699852
+      TVs-Photoroom.png-Photoroom_60: 1093879439
+      TVs-Photoroom.png-Photoroom_61: 945191396
+      TVs-Photoroom.png-Photoroom_62: -729024383
+      TVs-Photoroom.png-Photoroom_63: 434504404
+      TVs-Photoroom.png-Photoroom_7: 934498684
+      TVs-Photoroom.png-Photoroom_8: 1421349596
+      TVs-Photoroom.png-Photoroom_9: 884390166
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,826 @@
+fileFormatVersion: 2
+guid: 0f4fdd8210881c04cb87a871b11811dd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1091
+        width: 173
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31087d89e3a7c1745b748639d46da850
+      internalID: -821894195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1133
+        width: 170
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14322ddb23f08634282ad442b8ac1d85
+      internalID: -2001435594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1082
+        width: 181
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968ae0aa47f749e458492c0783252aef
+      internalID: 902911536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1098
+        width: 186
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2027a183ec224448e889d55c0a732c
+      internalID: -226471762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1046
+        width: 213
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1196da9d6f7300c42b55daa431c3458c
+      internalID: 1345915754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_5
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1037
+        width: 192
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fceba771cf8ae184a996e9811ff84597
+      internalID: 1287826340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_6
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 898
+        width: 166
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0818c3b4a41a114da7551852e0bbd91
+      internalID: 448554245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 907
+        width: 195
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2c065ad9999fe4cbeb09d876b08a02
+      internalID: 1901143604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_8
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 909
+        width: 181
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b333f0246629b744a6a58a28498b24f
+      internalID: 1037176869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_9
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 895
+        width: 129
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299e24cfff85ff340aea97b47610b105
+      internalID: -808753382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_10
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 850
+        width: 226
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97a3526b1673be4b90a6c0bd5ae925e
+      internalID: -504413429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_11
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 847
+        width: 196
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6168089982e8b7c43952260d9504ed3a
+      internalID: 1986883984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_12
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 690
+        width: 182
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e53905a318545469e1a045ccc38773
+      internalID: 1716187744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_13
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 676
+        width: 189
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2c257a108e45f459fbed7fe68ae305
+      internalID: -335280442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_14
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 686
+        width: 192
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a211b914eb45294f85ecca08ae611ea
+      internalID: -1803992030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_15
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 721
+        width: 170
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8205ebae317018346986a6c889ac928e
+      internalID: 2119689645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_16
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 667
+        width: 221
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d1c453bc809864eac78e78f92b0735
+      internalID: -1679335263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_17
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 690
+        width: 177
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e597d7b443c09b4bb5795dae61bc88e
+      internalID: 1930180033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 427
+        width: 280
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00e6cc2d4b24e6429baaa248ca6a4b9
+      internalID: 139981596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_19
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 426
+        width: 281
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21a2af01db19a3449ba87c754de7c6d
+      internalID: 1228142918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_20
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 431
+        width: 261
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df28a770a7863e4f8bc1aaffd0e4ca2
+      internalID: 106496138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_21
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 431
+        width: 263
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe048d055efab45428a97095bd402513
+      internalID: -1509129913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_22
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 243
+        width: 249
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb35fe25851093b4cb86bfad8048b04e
+      internalID: 488110352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_23
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 214
+        width: 279
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c4a420cba1e30489baee5e2ee61ac3
+      internalID: 1188754072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_24
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 212
+        width: 282
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8201bde00d943d54e9eea50e87d2c7b0
+      internalID: 175756374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_25
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 246
+        width: 241
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b56475285d486c47aa843093d45607b
+      internalID: 1817546288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_26
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 280
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ec14ce41f427f4ea76e685f0a9d836
+      internalID: 1055779318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_27
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 0
+        width: 279
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034ab89404e476740b57c8217ad1697d
+      internalID: -972123801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_28
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 44
+        width: 256
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e56cb86ebe1e745ade82528af6f1f3
+      internalID: 107713837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beds-Photoroom.png-Photoroom_29
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 50
+        width: 267
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5d6d164a49db84682fe6561e5b0dbd
+      internalID: -1005468752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      beds-Photoroom.png-Photoroom_0: -821894195
+      beds-Photoroom.png-Photoroom_1: -2001435594
+      beds-Photoroom.png-Photoroom_10: -504413429
+      beds-Photoroom.png-Photoroom_11: 1986883984
+      beds-Photoroom.png-Photoroom_12: 1716187744
+      beds-Photoroom.png-Photoroom_13: -335280442
+      beds-Photoroom.png-Photoroom_14: -1803992030
+      beds-Photoroom.png-Photoroom_15: 2119689645
+      beds-Photoroom.png-Photoroom_16: -1679335263
+      beds-Photoroom.png-Photoroom_17: 1930180033
+      beds-Photoroom.png-Photoroom_18: 139981596
+      beds-Photoroom.png-Photoroom_19: 1228142918
+      beds-Photoroom.png-Photoroom_2: 902911536
+      beds-Photoroom.png-Photoroom_20: 106496138
+      beds-Photoroom.png-Photoroom_21: -1509129913
+      beds-Photoroom.png-Photoroom_22: 488110352
+      beds-Photoroom.png-Photoroom_23: 1188754072
+      beds-Photoroom.png-Photoroom_24: 175756374
+      beds-Photoroom.png-Photoroom_25: 1817546288
+      beds-Photoroom.png-Photoroom_26: 1055779318
+      beds-Photoroom.png-Photoroom_27: -972123801
+      beds-Photoroom.png-Photoroom_28: 107713837
+      beds-Photoroom.png-Photoroom_29: -1005468752
+      beds-Photoroom.png-Photoroom_3: -226471762
+      beds-Photoroom.png-Photoroom_4: 1345915754
+      beds-Photoroom.png-Photoroom_5: 1287826340
+      beds-Photoroom.png-Photoroom_6: 448554245
+      beds-Photoroom.png-Photoroom_7: 1901143604
+      beds-Photoroom.png-Photoroom_8: 1037176869
+      beds-Photoroom.png-Photoroom_9: -808753382
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
