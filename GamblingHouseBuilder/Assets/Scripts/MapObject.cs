@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using System;
+using System.IO;
 
 [Serializable]
 public class Stage
@@ -10,31 +11,58 @@ public class Stage
     public Sprite sprite;
     public int Value;
 }
+
 public class MapObject : MonoBehaviour
 {
-    public static Action<int, int> onUpgraded;
-    public int ObjectNumber;
-
-    public Stage [] Stages;
+    public Stage[] Stages;
     public int CurrentStage;
     public TextMeshProUGUI PriceText;
     public GameObject button;
+    public Location Location;
+
+    public string SaveFileName = "map_object_data.json";
 
     private void Start()
     {
+        SaveData();
         UpdateObject();
     }
+
     public void Upgrade()
     {
         if (Player.Coins >= Stages[CurrentStage].Value)
         {
             Player.Coins -= Stages[CurrentStage].Value;
-            onUpgraded?.Invoke(ObjectNumber, CurrentStage + 1);
             CurrentStage++;
+            SaveData();
         }
         UpdateObject();
     }
 
+    private void SaveData()
+    {
+        MapObjectData data = new MapObjectData();
+        data.CurrentStage = CurrentStage;
+
+        string jsonData = JsonUtility.ToJson(data);
+        File.WriteAllText(GetSaveFilePath(), jsonData);
+    }
+
+    private void LoadData()
+    {
+        string filePath = GetSaveFilePath();
+        if (File.Exists(filePath))
+        {
+            string jsonData = File.ReadAllText(filePath);
+            MapObjectData data = JsonUtility.FromJson<MapObjectData>(jsonData);
+            CurrentStage = data.CurrentStage;
+        }
+    }
+
+    private string GetSaveFilePath()
+    {
+        return Path.Combine(Application.persistentDataPath, SaveFileName);
+    }
 
     public void UpdateObject()
     {
@@ -49,26 +77,12 @@ public class MapObject : MonoBehaviour
             PriceText.text = "";
         }
         button.SetActive(CurrentStage + 1 < Stages.Length);
-    }
-
-
-    private void getData(int Index, int Level)
-    {
-        if (Index == ObjectNumber)
-        {
-            CurrentStage = Level;
-            UpdateObject();
-        }
-    }
-
-    private void OnEnable()
-    {
-        Map.onLoadUpgrades += getData;
-    }
-    private void OnDisable()
-    {
-        Map.onLoadUpgrades -= getData;
+        Location.UpdateCompeled();
     }
 }
 
-
+[Serializable]
+public class MapObjectData
+{
+    public int CurrentStage;
+}

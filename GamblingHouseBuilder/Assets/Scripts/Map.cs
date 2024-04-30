@@ -1,88 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
-using System.IO;
-
-[Serializable]
-public class MapObjectData
-{
-    public int ObjIndex;
-    public int ObjLevel;
-}
 
 public class Map : MonoBehaviour
 {
-    public List<MapObjectData> mapObjectDatas;
-    public static Action<int, int> onLoadUpgrades;
+    public List<Location> locations;
+    public List<GameObject> LocationObjects;
 
-    private string filePath;
+    [SerializeField]
+    private int currentlocation;
 
-    void Start()
+    private void FixedUpdate()
     {
-        filePath = Application.persistentDataPath + "/MapData1.json";
-
-        mapObjectDatas = LoadData();
-    }
-
-    private void CollectData(int ObjIndex, int ObjLevel)
-    {
-        MapObjectData existingData = mapObjectDatas.Find(obj => obj.ObjIndex == ObjIndex);
-
-        if (existingData != null)
+        if (locations[currentlocation].isCompeleted) 
         {
-            existingData.ObjLevel = ObjLevel;
-        }
-        else
-        {
-            MapObjectData newData = new MapObjectData();
-            newData.ObjIndex = ObjIndex;
-            newData.ObjLevel = ObjLevel;
-            mapObjectDatas.Add(newData);
-        }
-
-        SaveData();
-    }
-
-
-    private void OnEnable()
-    {
-        MapObject.onUpgraded += CollectData;
-    }
-
-    private void OnDisable()
-    {
-        MapObject.onUpgraded -= CollectData;
-        SaveData();
-    }
-
-    private void OnApplicationQuit()
-    {
-        SaveData();
-    }
-
-    void SaveData()
-    {
-        string jsonData = JsonUtility.ToJson(mapObjectDatas);
-        File.WriteAllText(filePath, jsonData);
-    }
-
-    List<MapObjectData> LoadData()
-    {
-        if (File.Exists(filePath))
-        {
-            string jsonData = File.ReadAllText(filePath);
-            List<MapObjectData> data = JsonUtility.FromJson<List<MapObjectData>>(jsonData);
-            foreach (var item in data)
-            {
-                onLoadUpgrades?.Invoke(item.ObjIndex, item.ObjLevel);
-            }
-            return data;
-        }
-        else
-        {
-            Debug.LogWarning("No save data found!");
-            return new List<MapObjectData>();
+            LocationObjects[currentlocation].SetActive(false);
+            currentlocation++;
+            LocationObjects[currentlocation].SetActive(true);
         }
     }
 }
