@@ -350,6 +350,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7311289c3c39534aa326fb227d985de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mapObjectDatas:
+  - ObjIndex: 1
+    ObjLevel: 0
 --- !u!1 &205090368
 GameObject:
   m_ObjectHideFlags: 0
@@ -2906,7 +2909,7 @@ MonoBehaviour:
   - sprite: {fileID: 1208020614, guid: 11f855ba42ca95240aff71045cd8b2b3, type: 3}
     Value: 200
   - sprite: {fileID: -162628443, guid: 11f855ba42ca95240aff71045cd8b2b3, type: 3}
-    Value: 200
+    Value: 0
   CurrentStage: 0
   PriceText: {fileID: 1685603971}
   button: {fileID: 1603447435}

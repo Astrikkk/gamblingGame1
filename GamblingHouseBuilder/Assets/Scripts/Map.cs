@@ -4,6 +4,7 @@ using UnityEngine;
 using System;
 using System.IO;
 
+[Serializable]
 public class MapObjectData
 {
     public int ObjIndex;
@@ -12,27 +13,37 @@ public class MapObjectData
 
 public class Map : MonoBehaviour
 {
-    private List<MapObjectData> mapObjectDatas;
+    public List<MapObjectData> mapObjectDatas;
     public static Action<int, int> onLoadUpgrades;
 
     private string filePath;
 
     void Start()
     {
-        filePath = Application.persistentDataPath + "/MapData.json";
+        filePath = Application.persistentDataPath + "/MapData1.json";
 
         mapObjectDatas = LoadData();
     }
 
     private void CollectData(int ObjIndex, int ObjLevel)
     {
-        MapObjectData newData = new MapObjectData();
-        newData.ObjIndex = ObjIndex;
-        newData.ObjLevel = ObjLevel;
+        MapObjectData existingData = mapObjectDatas.Find(obj => obj.ObjIndex == ObjIndex);
 
-        mapObjectDatas.Add(newData);
+        if (existingData != null)
+        {
+            existingData.ObjLevel = ObjLevel;
+        }
+        else
+        {
+            MapObjectData newData = new MapObjectData();
+            newData.ObjIndex = ObjIndex;
+            newData.ObjLevel = ObjLevel;
+            mapObjectDatas.Add(newData);
+        }
+
         SaveData();
     }
+
 
     private void OnEnable()
     {

@@ -42,7 +42,7 @@ public class MapObject : MonoBehaviour
         spriteRenderer.sprite = Stages[CurrentStage].sprite;
         if (CurrentStage + 1 < Stages.Length)
         {
-            PriceText.text = Stages[CurrentStage + 1].Value.ToString();
+            PriceText.text = Stages[CurrentStage].Value.ToString();
         }
         else
         {
