@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Map : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class Map : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (locations[currentlocation].isCompeleted) 
+        if (locations[currentlocation].isCompeleted && currentlocation < locations.Count - 1) 
         {
             LocationObjects[currentlocation].SetActive(false);
             currentlocation++;

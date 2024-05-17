@@ -21,10 +21,14 @@ public class MapObject : MonoBehaviour
     public Location Location;
 
     public string SaveFileName = "map_object_data.json";
+    private GameManager gameManager;
+    private AudioSource Audio;
 
     private void Start()
     {
-        SaveData();
+        gameManager = GameObject.FindObjectOfType<GameManager>();
+        Audio = gameObject.GetComponent<AudioSource>();
+        LoadData();
         UpdateObject();
     }
 
@@ -34,9 +38,15 @@ public class MapObject : MonoBehaviour
         {
             Player.Coins -= Stages[CurrentStage].Value;
             CurrentStage++;
+            Audio.Play();
             SaveData();
         }
+        else
+        {
+            gameManager.NotEnoughMoneyText();
+        }
         UpdateObject();
+        Player.Save();
     }
 
     private void SaveData()

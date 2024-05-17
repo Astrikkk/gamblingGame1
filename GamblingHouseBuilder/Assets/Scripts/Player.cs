@@ -9,8 +9,8 @@ public class Player : MonoBehaviour
     public static int Diamonds;
     public static int Level;
 
-    public TextMeshProUGUI CoinsText;
-    public TextMeshProUGUI DiamondsText;
+    public List<TextMeshProUGUI> CoinsText;
+    public List<TextMeshProUGUI> DiamondsText;
 
 
     private void Start()
@@ -20,17 +20,23 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        CoinsText.text = Coins.ToString();
-        DiamondsText.text = Diamonds.ToString();
+        for (int i = 0; i < CoinsText.Count; i++)
+        {
+            CoinsText[i].text = Coins.ToString();
+        }
+        for (int i = 0; i < DiamondsText.Count; i++)
+        {
+            DiamondsText[i].text = Diamonds.ToString();
+        }
     }
 
-    private void Load()
+    private static void Load()
     {
         Coins = PlayerPrefs.GetInt("PlayerCoins", 0);
         Diamonds = PlayerPrefs.GetInt("PlayerDiamonds", 0);
         Level = PlayerPrefs.GetInt("PlayerLevel", 0);
     }
-    public void Save()
+    public static void Save()
     {
         PlayerPrefs.SetInt("PlayerCoins", Coins);
         PlayerPrefs.SetInt("PlayerDiamonds", Diamonds);

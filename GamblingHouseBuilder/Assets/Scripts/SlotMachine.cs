@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-//Якщо хтось це читає, вибачте за гавнокод
 public class SlotMachine : MonoBehaviour
 {
     public List<SpriteRenderer> Slots1;
@@ -16,8 +15,14 @@ public class SlotMachine : MonoBehaviour
     public TextMeshProUGUI ResultText;
     public GameObject ResultMenu;
     public List<string> ResultStrings;
+
+    [SerializeField] private AudioClip jackpotSound;
+    [SerializeField] private AudioClip spinSound;
+    [SerializeField] private AudioSource audioSource;
+
     [SerializeField] private float timeAdder;
     [SerializeField] private float spinTime = 5f; // Час, після якого слоти зупиняються
+    public PressButtonAnimation _pressButtonAnimation;
     private float currentSpinTime = 0f; // Поточний час "спіну"
 
     private SlotObj middleSlot1;
@@ -37,8 +42,10 @@ public class SlotMachine : MonoBehaviour
     {
         if (!isSpinning)
         {
+            _pressButtonAnimation.PlayAnimation();
             isSpinning = true;
             currentSpinTime = 0f;
+            audioSource.PlayOneShot(spinSound); // Відтворення звуку крутіння барабану
         }
     }
 
@@ -132,17 +139,17 @@ public class SlotMachine : MonoBehaviour
         ResultImages[1].sprite = middleSlot2.sprite;
         ResultImages[2].sprite = middleSlot3.sprite;
 
-        if (middleSlot1 == middleSlot2 == middleSlot3)
+        if (middleSlot1 == middleSlot2 && middleSlot2 == middleSlot3 && middleSlot1 == middleSlot3)
         {
             ResultText.text = middleSlot1.WinText;
             Player.Coins += middleSlot1.ThreeSlotCoins;
             Player.Diamonds += middleSlot1.ThreeSlotDiamonds;
-
+            audioSource.PlayOneShot(jackpotSound); // Відтворення звуку джекпоту
             Debug.Log("Jackpot");
         }
-        else if (middleSlot1 == middleSlot2 && middleSlot2 == middleSlot3 && middleSlot1 == middleSlot3)
+        else if (middleSlot1 == middleSlot2 || middleSlot2 == middleSlot3 || middleSlot1 == middleSlot3)
         {
-            ResultText.text = ResultStrings[Random.RandomRange(0, ResultStrings.Count - 1)];
+            ResultText.text = ResultStrings[Random.Range(0, ResultStrings.Count)];
             Player.Coins += middleSlot1.TwoSlotCoins;
             Player.Coins += middleSlot2.TwoSlotCoins;
             Player.Coins += middleSlot3.TwoSlotCoins;
@@ -152,7 +159,7 @@ public class SlotMachine : MonoBehaviour
         }
         else
         {
-            ResultText.text = ResultStrings[Random.RandomRange(0, ResultStrings.Count - 1)];
+            ResultText.text = ResultStrings[Random.Range(0, ResultStrings.Count)];
             Player.Coins += middleSlot1.OneSlotCoins;
             Player.Coins += middleSlot2.OneSlotCoins;
             Player.Coins += middleSlot3.OneSlotCoins;

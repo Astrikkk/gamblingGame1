@@ -1,24 +1,22 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 //Scene Control
 public class GameManager : MonoBehaviour
 {
-    private Player player;
+    public GameObject NotEnoughMoneyObj;
+    public TMP_InputField DiamondsInputField;
 
-    private void Start()
-    {
-        player=GameObject.FindObjectOfType<Player>();
-    }
     public void LoadScene(string sceneName)
     {
-        player.Save();
+        Player.Save();
         SceneManager.LoadScene(sceneName); // Завантажуємо задану сцену
     }
 
     public void QuitGame()
     {
-        player.Save();
+        Player.Save();
         Application.Quit(); // Закриваємо додаток (працює тільки в збірці)
     }
 
@@ -26,6 +24,26 @@ public class GameManager : MonoBehaviour
     {
         Scene currentScene = SceneManager.GetActiveScene(); // Отримуємо поточну сцену
         SceneManager.LoadScene(currentScene.name); // Завантажуємо знову поточну сцену
-        player.Save();
+        Player.Save();
+    }
+
+    public void NotEnoughMoneyText()
+    {
+        NotEnoughMoneyObj.SetActive(true);
+    }
+    public void ExchangeDiamonds()
+    {
+        int diamondsToExchange = int.Parse(DiamondsInputField.text);
+
+        if (diamondsToExchange <= Player.Diamonds)
+        {
+            Player.Coins += diamondsToExchange * 10;
+            Player.Diamonds -= diamondsToExchange;
+            Player.Save();
+        }
+        else
+        {
+            NotEnoughMoneyText();
+        }
     }
 }
