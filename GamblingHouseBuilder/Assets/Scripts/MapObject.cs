@@ -24,6 +24,8 @@ public class MapObject : MonoBehaviour
     private GameManager gameManager;
     private AudioSource Audio;
 
+    public event Action OnUpdated;
+
     private void Start()
     {
         gameManager = GameObject.FindObjectOfType<GameManager>();
